@@ -4,9 +4,7 @@ import './product.css'
 import Bookmark from '../Bookmark/Bookmark';
 
 const Product = (props) => {
-    const {blogs, image_url1,image_url2, user,published_date, read, reading_time} = props.element
-    const {handle}= props
-    // console.log(props.element)
+    const {blogs, image_url1,image_url2, user,published_date, read, reading_time} = props.element;
 return (
     <div className='card'>    
         <img src={image_url1} alt="" />
